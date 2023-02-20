@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #eae7b1;
+}
+
+a:hover {
+  color: #3c6255;
+}
+
+.wrapper {
+  width: 100%;
+  height: 2400px;
+  background-image: url("./foto/bg.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  font-family: "Passion One", cursive;
+  color: #e4b73b;
+  box-shadow: 10px 3px 7px #2d2e03;
+  font-style: bold;
+}
+
+.navbar {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: #6e7644;
+  box-shadow: 0px 3px 7px #2d2e03;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar a {
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #eae7b1;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.navbar a:hover {
+  background-color: #2d2e03;
+  box-shadow: 0px 3px 7px #0b251c;
+  padding: 15px;
+}
+
+.image {
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.container::before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0;
+  height: 1em;
+}
+
+.title1 {
+  width: 175px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 110px auto 15px;
+  display: flex;
+  font-size: 30px;
+  background-color: #2d2e03;
+  padding: 7px 13px 13px 24px;
+  align-items: flex-end;
+}
+
+.wrapper1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 0px 20px 0px 0px;
+}
+
+.p1 {
+  width: 500px;
+  height: 260px;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-emphasis-style: bold;
+  text-align: justify;
+  text-indent: 10%;
+  background-color: #2d2e03;
+  padding: 40px 40px 5px;
+}
+
+.p2 {
+  width: 500px;
+  height: 278px;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-align: justify;
+  background-color: #2d2e03;
+  padding: 13px 40px;
+}
+
+.p2 p {
+  padding: 20px 0px;
+}
+
+.img {
+  width: 200px;
+  display: flex;
+  margin: auto;
+}
+
+.title2 {
+  width: 105px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 100px auto 0px;
+  display: flex;
+  font-size: 30px;
+  background-color: #2d2e03;
+  padding: 7px 13px 13px 24px;
+  align-items: flex-end;
+}
+
+.hoop {
+  display: flex;
+  gap: 25px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-size: 30px;
+}
+
+.title3 {
+  width: 125px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 100px auto 30px;
+  display: flex;
+  font-size: 30px;
+  background-color: #2d2e03;
+  padding: 7px 13px 13px 24px;
+  align-items: flex-end;
+}
+
+.struktur {
+  background-color: #3b4429;
+  width: 60%;
+  height: 40px;
+  margin: auto;
+  border: solid;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+table {
+  border: 5px solid #e4b73b;
+  border-collapse: collapse;
+  color: #ffffff;
+  font-weight: normal;
+  text-align: center;
+}
+
+td {
+  border: 5px solid #e4b73b;
+  font-weight: normal;
+  border-collapse: collapse;
+  padding: 10x;
+}
+
+tr {
+  border: 5px solid #e4b73b;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.title4 {
+  width: 175px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 100px auto 15px;
+  display: flex;
+  font-size: 30px;
+  background-color: #2d2e03;
+  padding: 7px 13px 13px 24px;
+  align-items: flex-end;
+}
+
+.wrapper2 {
+  width: 800px;
+  height: 340px;
+  font-size: 30px;
+  text-align: justify;
+  margin: auto;
+  background-color: #2d2e03;
+  padding: 10px 20px 70px 20px;
+  border-radius: 30px;
+}
+
+dl {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.wrapper2 p {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-left: 40px;
+}
+
+.footer {
+  background-color: #3b4429;
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1;
+}
+
+.footer p {
+  padding-left: 25px;
+  color: #eae7b1;
+}
+
+.footer img {
+  padding-top: 0px;
+  margin: auto 0px;
+}

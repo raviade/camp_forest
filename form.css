@@ -1,0 +1,102 @@
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label:before {
+  background-color: #eae7b1;
+  border: 5px solid #8c9c3a;
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  line-height: 17px;
+  margin: 0px 10px 10px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+input[type="radio"]:checked + label:before {
+  content: "\2022";
+  color: #61876e;
+}
+a {
+  margin-right: 0px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #eae7b1;
+}
+
+.wrapper {
+    background-image: url("./foto/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Passion One', cursive;
+    color: #eae7b1;
+    font-style: normal;
+  }
+  
+
+.container {
+    width: 660px;
+    height: 790px;
+    background-color: #6E7644;
+    margin: 40px auto;
+    align-items: center;
+    border-radius: 30px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex
+    ;
+  }
+
+.image {
+    width: 300;
+    height: 300;
+    display: flex;
+    padding: 40px;
+}
+
+.isi{
+    text-align: center;
+    font-size: 25px;
+}
+
+.isian {
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    background: #ebe34a;
+    padding: 13px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    place-items: center;
+    margin: 10px auto 0px;
+  }
+
+.button {
+  font-family: 'Passion One', cursive;
+  color: #000000;
+  background: #2d2e03;
+  padding: 13px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  place-items: center;
+  margin: 10px auto 0px;
+}
+
+.button:hover {
+  background-color: #ebe34a;
+  box-shadow: 0px 5px 9px #0e381e;
+}
+
+.button a{
+  font-size: 25px;
+  color: #ebe34a;
+}
+
+.button a:hover{
+  color: #2d2e03;
+}
