@@ -28,7 +28,7 @@ a {
 .wrapper {
     background-image: url("./foto/bg.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     font-family: 'Passion One', cursive;
     color: #eae7b1;
     font-style: normal;
@@ -37,13 +37,13 @@ a {
 
 .container {
     width: 660px;
-    height: 790px;
+    height: 1030px;
     background-color: #6E7644;
     margin: 40px auto;
     align-items: center;
     border-radius: 30px;
     align-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     display: flex
     ;
@@ -73,6 +73,14 @@ a {
     place-items: center;
     margin: 10px auto 0px;
   }
+
+.chckbx{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  align-items: stretch;
+  text-align: left;
+}
 
 .button {
   font-family: 'Passion One', cursive;
